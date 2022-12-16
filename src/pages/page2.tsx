@@ -1,6 +1,6 @@
-import * as React from 'react';
 import { HeadFC, PageProps } from 'gatsby';
 import { Link } from 'gatsby-plugin-react-i18next';
+import * as React from 'react';
 
 const NotFoundPage: React.FC<PageProps> = () => {
   return (
@@ -11,7 +11,8 @@ const NotFoundPage: React.FC<PageProps> = () => {
         <p className="text-gray-500 mb-8">You are on page 2, enjoy!</p>
         <Link
           className="px-6 py-3 font-semibold bg-gray-400 rounded-lg text-gray-800 hover:bg-gray-500"
-          to="/">
+          to="/"
+        >
           Go back to the homepage
         </Link>
       </div>

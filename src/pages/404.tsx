@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { Link, HeadFC, PageProps } from 'gatsby';
+import { HeadFC, Link, PageProps } from 'gatsby';
+import React from 'react';
 
 const NotFoundPage: React.FC<PageProps> = () => {
   return (
@@ -12,7 +12,8 @@ const NotFoundPage: React.FC<PageProps> = () => {
         </p>
         <Link
           className="px-6 py-3 font-semibold bg-gray-400 rounded-lg text-gray-800 hover:bg-gray-500"
-          to="/">
+          to="/"
+        >
           Go back to the homepage
         </Link>
       </div>

@@ -1,5 +1,5 @@
-const { join } = require('path');
-const { readdirSync, lstatSync } = require('fs');
+import { join } from 'path';
+import { lstatSync, readdirSync } from 'fs';
 
 const defaultLanguage = 'en';
 
@@ -14,5 +14,5 @@ languages.unshift(defaultLanguage);
 
 module.exports = {
   languages,
-  defaultLanguage
+  defaultLanguage,
 };
